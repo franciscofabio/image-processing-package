@@ -8,7 +8,7 @@ with open("requirements.txt") as f:
 
 setup(
     name="image-processing-package-myPy",
-    version="0.0.1",
+    version="0.0.8",
     author="Francisco Fábio de Almeida Ferreira",
     author_email="franciscofabio18@hotmail.com",
     description="Test version - Image processing. This project belongs to Karina Tiemi Kato, Tech Lead, Machine Learning Engineer, Data Scientist Specialist at Take. This package is a demo for simulation of upload on the Test Pypi website, and it's from class of the Bootcamp developer full stack Python. E-mail:karinatkato@gmail.com.",

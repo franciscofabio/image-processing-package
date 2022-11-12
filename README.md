@@ -59,16 +59,16 @@ pip install -r requirements.txt
 
 - [x] Instalção do Pacote
 
-Use o gerenciador de pacotes ```pip install -i https://test.pypi.org/simple/ image-processing-test ```para instalar image_processing-test
+Use o gerenciador de pacotes ```pip install -i pip install -i https://test.pypi.org/simple/ image-processing-package-myPy ```para instalar image-processing-package-myPy
 
 ```bash
-pip install image-processing-test
+pip install image-processing-package-myPy
 ```
 -------------------------------------------------
 ## Como usar em qualquer projeto
 
 ```python
-from image-processing-test.processing import combination
+from image-processing-package-myPy.processing import combination
 combination.find_difference(image1, image2)
 ```
 

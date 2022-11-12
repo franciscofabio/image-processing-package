@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: image-processing-package-myPy
-Version: 0.0.1
+Version: 0.0.8
 Summary: Test version - Image processing. This project belongs to Karina Tiemi Kato, Tech Lead, Machine Learning Engineer, Data Scientist Specialist at Take. This package is a demo for simulation of upload on the Test Pypi website, and it's from class of the Bootcamp developer full stack Python. E-mail:karinatkato@gmail.com.
 Home-page: https://github.com/franciscofabio/image-processing-package
 Author: Francisco Fábio de Almeida Ferreira
@@ -35,12 +35,12 @@ O pacote "image_processing-test" Ã© usado para:
 - [x] InstalaÃ§Ã£o das Ãºltimas versÃµes de "setuptools" e "wheel"
 
 ```
-py -m pip install --user --upgrade setuptools wheel
+python -m pip install --user --upgrade setuptools wheel
 ```
 - [x] Tenha certeza que o diretÃ³rio no terminal seja o mesmo do arquivo "setup.py"
 
 ```
-py setup.py sdist bdist_wheel
+python setup.py sdist bdist_wheel
 ```
 
 - [x] ApÃ³s completar a instalaÃ§Ã£o, verifique se as pastas abaixo foram adicionadas ao projeto:
@@ -56,7 +56,7 @@ py -m twine upload --repository testpypi dist/*
 
 - [x] ApÃ³s rodar o comando acima no terminal, serÃ¡ pedido para inserir o usuÃ¡rio e senha. Feito isso, o projeto estarÃ¡ hospedado no Test Pypi.hospedÃ¡-lo no Pypi diretamente.
 
-### Aqui o objetivo nÃ£o Ã© utilizar o projeto da Karina para postar em meu perfil do Pypi pessoal, visto que o projeto Ã© dela. Ainda nÃ£o tenho nenhum projeto que possa ser utilizado como pacote.
+### Aqui o objetivo nÃ£o Ã© utilizar o projeto da Karina para postar em meu perfil do Pypi pessoal, visto que o projeto Ã© dela. Ainda nÃ£o tenho nenhum projeto que possa ser utilizado como pacote mas estou desenvolvendo uma aplicaÃ§Ã£o modelo em flask para futuramente usar o deploy como um pacote.
 
 ### No entanto, tenha em mente que o Test Pypi, como o prÃ³prio nome diz, Ã© apenas um ambiente de testes. Para que o projeto esteja disponÃ­vel como um pacote para ser usado publicamente, Ã© necessÃ¡rio hospedÃ¡-lo no site oficial do Pypi.
 ----------------------------------------------------
@@ -69,16 +69,16 @@ pip install -r requirements.txt
 
 - [x] InstalÃ§Ã£o do Pacote
 
-Use o gerenciador de pacotes ```pip install -i https://test.pypi.org/simple/ image-processing-test ```para instalar image_processing-test
+Use o gerenciador de pacotes ```pip install -i pip install -i https://test.pypi.org/simple/ image-processing-package-myPy ```para instalar image-processing-package-myPy
 
 ```bash
-pip install image-processing-test
+pip install image-processing-package-myPy
 ```
 -------------------------------------------------
 ## Como usar em qualquer projeto
 
 ```python
-from image-processing-test.processing import combination
+from image-processing-package-myPy.processing import combination
 combination.find_difference(image1, image2)
 ```
 
